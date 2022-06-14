@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/8dc81339fe.js" crossorigin="anonymous"></script>
+        <title>Invoice Creator</title>
+    </head>
+
+    <body>
+        <main>
+            <section id="title">
+                <h1>Invoice Creator</h1>
+                <p>Thanks for choosing GoodCorp, LLC!</p>
+            </section>
+            <div id="flex-row-btn">
+                <button id="car-btn"> Wash Car: $10 </button>
+                <button id="lawn-btn"> Mow Lawn: $20 </button>
+                <button id="weeds-btn"> Pull Weeds: $30 </button>
+            </div>
+            <section id="teste">
+                <div>
+                    <div class="summary-header">
+                        <span> TASK </span>
+                        <span> TOTAL </span>
+                    </div>
+                    <section id="summary"></section>
+                </div>
+                <hr>
+                <section>
+                    <div class="summary-header">
+                        <span> NOTES </span>
+                        <span> TOTAL AMOUNT </span>
+                    </div>
+                    <div >
+                        <div id="summary-final">
+                            <span>We accept cash, credit card, or PayPal</span>    
+                            <h2 id="amount-final"><span style= "color: #D5D4D8;">$<span>0</h2>
+                        </div>
+                    </div>
+                </section>
+                <button id="send-btn"><i class="fa-solid fa-envelope"></i>Send Invoice</button>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+
+</html>
